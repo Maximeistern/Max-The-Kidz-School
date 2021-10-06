@@ -1,0 +1,18 @@
+:root{
+    /*************
+    *** COLORS ***
+    *************/
+    --color-primary:#a597e7;
+    --color-secondary:#6c757d;
+    --color-success:#b5d56a;
+    --color-info:#84bed6;
+    --color-warning:#f0c24b;
+    --color-danger:#ea7066;
+    --color-light:#f8f9fa;
+    --color-dark:#343a40;
+    --color-white:#ffff;
+    --color-cozy:#ea77ad;
+    --color-transparent:transparent;
+    --color-border:#dee2e6;
+    --color-dark-transparent:rgba(0, 0, 0, 0.2);
+}
