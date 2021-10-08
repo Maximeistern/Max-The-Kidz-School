@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;600;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4ac1de6598.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/flex.css">
@@ -34,8 +35,52 @@
 
         <nav class="d-flex max-width justify-content-between align-items-center mx-auto p-6">
             <img class="logo-width" src="Images/logo-school.png" alt="logo-school">
-            <div>sdf</div>
-            <div>sdf</div>
+            <div class="d-flex justify-content-between">
+                <a href="#" class="d-flex flex-column align-items-center text-decoration-none">
+                    <div class="d-flex align-items-center justify-content-center bg-info p-4 circle shadow-sm">
+                        <i class="fa fa-home text-white"></i>
+
+                    </div>
+                    <span class="text-info mt-2 lh-sm">Home</span>
+                </a>
+                <a href="#" class="d-flex flex-column align-items-center text-decoration-none">
+                    <div class="d-flex align-items-center justify-content-center bg-cozy p-4 circle shadow-sm">
+                        <i class="fas fa-store text-white"></i>
+
+                    </div>
+                    <span class="text-cozy mt-2 lh-sm">Store</span>
+                </a>
+                <a href="#" class="d-flex flex-column align-items-center text-decoration-none">
+                    <div class="d-flex align-items-center justify-content-center bg-success p-4 circle shadow-sm">
+                        <i class="fas fa-user-graduate text-white"></i>
+
+                    </div>
+                    <span class="text-success mt-2 lh-sm">Courses</span>
+                </a>
+                <a href="#" class="d-flex flex-column align-items-center text-decoration-none">
+                    <div class="d-flex align-items-center justify-content-center bg-warning p-4 circle shadow-sm">
+                        <i class="fas fa-blog text-white"></i>
+
+                    </div>
+                    <span class="text-warning mt-2 lh-sm">Blog</span>
+                </a>
+            </div>
+            <div class="d-flex justify-content-between">
+                <a href="#" class="d-flex flex-column align-items-center text-decoration-none position-relative">
+                    <div class="d-flex align-items-center justify-content-center bg-cozy border-radius p-4 shadow-sm">
+                        <i class="fa fa-shopping-basket text-white"></i>
+
+                    </div>
+                    <span class="text-white position-absolute icon-badge circle bg-success border-small-white text-size-xxs">3</span>
+                </a>
+                <a href="#" class="d-flex flex-column align-items-center text-decoration-none position-relative">
+                    <div class="d-flex align-items-center justify-content-center bg-info border-radius p-4 shadow-sm">
+                        <i class="fa fa-bars text-white"></i>
+
+                    </div>
+                
+                </a>
+            </div>
         </nav>
         <!-- Colored Bars -->
         <div class="d-flex">
@@ -51,6 +96,38 @@
             <div class="flex-grow bg-info bar-height"></div>
             <div class="flex-grow bg-primary bar-height"></div>
             <div class="flex-grow bg-cozy bar-height"></div>
+        </div>
+
+        <!-- Drop down Nav (small devices)-->
+        <div class="mx-6 d-none">
+            <a href="#" class="d-flex flex-row-reverse align-items-center text-decoration-none p-6 border-bottom-xs">
+                <div class="d-flex align-items-center justify-content-center bg-info p-4 circle shadow-sm">
+                    <i class="fa fa-home text-white"></i>
+
+                </div>
+                <span class="text-info mr-4">Home</span>
+            </a>
+            <a href="#" class="d-flex flex-row-reverse align-items-center text-decoration-none p-6 border-bottom-xs">
+                <div class="d-flex align-items-center justify-content-center bg-cozy p-4 circle shadow-sm">
+                    <i class="fas fa-store text-white"></i>
+
+                </div>
+                <span class="text-cozy mr-4">Store</span>
+            </a>
+            <a href="#" class="d-flex flex-row-reverse align-items-center text-decoration-none p-6 border-bottom-xs">
+                <div class="d-flex align-items-center justify-content-center bg-success p-4 circle shadow-sm">
+                    <i class="fas fa-user-graduate text-white"></i>
+
+                </div>
+                <span class="text-success mr-4">Courses</span>
+            </a>
+            <a href="#" class="d-flex flex-row-reverse align-items-center text-decoration-none p-6 ">
+                <div class="d-flex align-items-center justify-content-center bg-warning p-4 circle shadow-sm">
+                    <i class="fas fa-blog text-white"></i>
+
+                </div>
+                <span class="text-warning mr-4">Blog</span>
+            </a>
         </div>
     </header>
     
